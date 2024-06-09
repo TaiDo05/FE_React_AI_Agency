@@ -4,8 +4,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import TestimonialItem from './TestimonialItem';
-import { Autoplay } from 'swiper/modules';
+import { Autoplay, Pagination, A11y  } from 'swiper/modules';
 import Icon from '../../components/Icon';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const TestimonailSlider = () => {
 
@@ -42,10 +44,11 @@ const TestimonailSlider = () => {
                 <div className="text-center py-5">
                     <h2 className="color-text fw-normal ">Testimonials</h2>
                     <p className="desc-choose">Lorem ipsum dolor sit amet</p>
-                    <Icon name="bug"></Icon>
                 </div>
                 <Swiper
-                    spaceBetween={50}
+                    className='!_pb-[60px]'
+                    spaceBetween={30}
+                    pagination={{ clickable: true }}
                     loop={true}
                     slidesPerView={1}
                     onSlideChange={() => {}}
@@ -54,7 +57,7 @@ const TestimonailSlider = () => {
                     //     delay: 2500,
                     //     disableOnInteraction: false,
                     //   }}
-                      modules={[Autoplay]}
+                      modules={[Autoplay, Pagination, A11y]}
                     breakpoints={{
                         640: {
                           slidesPerView: 1,

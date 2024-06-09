@@ -24,6 +24,10 @@ const Portfolio = () => {
             category: "DESIGN",
             img: "/images/product-5.jpg"
         },
+        {
+            category: "DEVELOPER",
+            img: "/images/product-6.jpg"
+        },
     ];
 
     useEffect(() => {

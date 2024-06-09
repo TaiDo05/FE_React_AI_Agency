@@ -171,7 +171,7 @@ const Services = () => {
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>10 Databases</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Unlimited Email Address</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Live Support</p>
-                        <a className="bg-btn text-white fs-5 mt-2 d-inline-block text-decoration-none text-center rounded-5  " href="#">Get Quotes</a>
+                        <a className="bg-btn text-white _px-[35px] _py-[13px] fs-5 mt-2 d-inline-block text-decoration-none text-center rounded-5  " href="#">Get Quotes</a>
                     </div>
                 </div>
                 <div className="col-md-4 col-12">
@@ -187,7 +187,7 @@ const Services = () => {
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>10 Databases</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Unlimited Email Address</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Live Support</p>
-                        <a className="bg-btn text-white fs-5 mt-2 d-inline-block text-decoration-none text-center rounded-5  " href="#">Get Quotes</a>
+                        <a className="bg-btn text-white _px-[35px] _py-[13px] fs-5 mt-2 d-inline-block text-decoration-none text-center rounded-5  " href="#">Get Quotes</a>
                     </div>
                 </div>
                 <div className="col-md-4 col-12">
@@ -203,7 +203,7 @@ const Services = () => {
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>10 Databases</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Unlimited Email Address</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Live Support</p>
-                        <a  className="bg-btn text-white fs-5 mt-2 d-inline-block text-decoration-none text-center rounded-5  " href="#">Get Quotes</a>
+                        <a  className="bg-btn text-white _px-[35px] _py-[13px] fs-5 mt-2 d-inline-block text-decoration-none text-center rounded-5  " href="#">Get Quotes</a>
                     </div>
                 </div>
             </div>

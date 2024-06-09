@@ -23,7 +23,7 @@ const CompanySlider = () => {
             img: "images/client-8.png"
         },
         {
-            img: "images/client-6.png"
+            img: "images/client-5.png"
         },
     ]
     return (
