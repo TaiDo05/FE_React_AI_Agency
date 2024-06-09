@@ -1,15 +1,23 @@
 import { useInView } from "react-intersection-observer";
 import TestimonailSlider from "./TestimonialSlider";
+import { useEffect, useState } from "react";
 
 const Services = () => {
+    const [inViewClass, setInViewClass] = useState("");
     const { ref, inView, entry } = useInView({
         /* Optional options */
         threshold: 0,
       });
+
+      useEffect(() => {
+        if(inView && inViewClass == "") {
+            setInViewClass("in-view")
+        }
+      }, [inView])
     return (
         <>
              <div className="container w-100 d-flex justify-content-center align-items-center flex-column">
-            <div  className={`row pt-5 animation ${inView ? 'in-view' : ''}  w-100 fadeup`}>
+            <div  className={`row pt-5 animation ${inViewClass}  w-100 fadeup`}>
                 <div ref={ref} className="col-md-4 col-12">
                     <a className="text-decoration-none p-2" href="#">
                         <div className="scale text-center   p-4 rounded-3">
