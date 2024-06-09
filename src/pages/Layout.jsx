@@ -3,33 +3,6 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
 
-  useEffect ( () => {
-    const observerOptions = {
-        root: null,
-        threshold: 0,
-        rootMargin: '0px 0px -50px 0px'
-    };
-    
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('in-view');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, observerOptions);
-    
-    window.addEventListener('DOMContentLoaded', (event) => {
-    
-    const sections = Array.from(document.querySelectorAll(".animation"));
-    console.log(sections);
-    for (let section of sections) {
-    observer.observe(section);
-    }
-    
-    });
-  }, []);
-
   return (
     <>
           <header>
@@ -58,6 +31,9 @@ const Layout = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Team</a>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/timer" className="nav-link">Timer</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <div className="dropdown"></div>

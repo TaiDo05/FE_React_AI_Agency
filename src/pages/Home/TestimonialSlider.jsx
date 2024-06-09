@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import TestimonialItem from './TestimonialItem';
+import { Autoplay } from 'swiper/modules';
 
 const TestimonailSlider = () => {
 
@@ -43,10 +44,15 @@ const TestimonailSlider = () => {
                 </div>
                 <Swiper
                     spaceBetween={50}
+                    loop={true}
                     slidesPerView={1}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
-                    autoplay={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                      }}
+                      modules={[Autoplay]}
                     breakpoints={{
                         640: {
                           slidesPerView: 1,

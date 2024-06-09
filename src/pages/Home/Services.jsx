@@ -1,6 +1,7 @@
 import { useInView } from "react-intersection-observer";
 import TestimonailSlider from "./TestimonialSlider";
 import { useEffect, useState } from "react";
+import Portfolio from "./Portfolio";
 
 const Services = () => {
     const [inViewClass, setInViewClass] = useState("");
@@ -150,64 +151,7 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className="row portfolio animation in-view fadeup w-100">
-                <div className="text-center py-5 animation in-view fadeup">
-                    <h2 className="color-text fw-normal ">Our Portfolio</h2>
-                    <p className="desc-choose">Lorem ipsum dolor sit amet</p>
-                    <div className="d-flex gap-4 justify-content-center pt-4 flex-wrap"> 
-                        <a className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " href="#">All</a>
-                        <a className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " href="#">App Design</a>
-                        <a className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " href="#">App Developer</a>
-                        <a className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " href="#">Branding</a>
-                        <a className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " href="#">It Solutions</a>
-                    </div>
-                </div>
-                <div className="col-md-4 col-12 my-2">
-                    <a href="#">
-                        <div className="overflow-hidden rounded-3">
-                            <img className="product-img img-fluid " src="/images/product-1.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div className="col-md-4 col-12 my-2">
-                    <a href="#">
-                        <div className="overflow-hidden rounded-3">
-                            <img className="product-img img-fluid " src="/images/product-2.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div className="col-md-4 col-12 my-2">
-                    <a href="#">
-                        <div className="overflow-hidden rounded-3">
-                            <img className="product-img img-fluid " src="/images/product-3.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div className="col-md-4 col-12 my-2">
-                    <a href="#">
-                        <div className="overflow-hidden rounded-3">
-                            <img className="product-img img-fluid " src="/images/product-4.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div className="col-md-4 col-12 my-2">
-                    <a href="#">
-                        <div className="overflow-hidden rounded-3">
-                            <img className="product-img img-fluid " src="/images/product-5.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                <div className="col-md-4 col-12 my-2">
-                    <a>
-                        <div className="overflow-hidden rounded-3">
-                            <img className="product-img img-fluid " src="/images/product-6.jpg" alt="" />
-                        </div>
-                    </a>
-                </div>
-                
-                
-                
-            </div>
+            <Portfolio />
 
             <div className="row plans w-100">
                 <div className="text-center py-5">

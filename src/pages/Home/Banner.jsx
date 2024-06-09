@@ -28,8 +28,8 @@ const Banner = () => {
                         </div>
                         <div className="">
                             <div className="justify-content-md-start justify-content-center d-flex">
-                                <a className={` ${inView ? 'in-view' : ''} animation fadeup bg-btn d-inline-block text-white text-decoration-none text-center rounded-5 me-3   `} href="#">Get Quotes</a>
-                                <a className={` ${inView ? 'in-view' : ''} delay animation fadeup  bg-btn d-inline-block text-white text-decoration-none text-center rounded-5 `} href="#">Get Started</a>
+                                <a className={` ${inView ? 'in-view' : ''} _p-4 animation fadeup bg-btn d-inline-block text-white text-decoration-none text-center rounded-5 me-3   `} href="#">Get Quotes</a>
+                                <a className={` ${inView ? 'in-view' : ''} _p-4 delay animation fadeup  bg-btn d-inline-block text-white text-decoration-none text-center rounded-5 `} href="#">Get Started</a>
                             </div>
                         </div>
                     </div>
