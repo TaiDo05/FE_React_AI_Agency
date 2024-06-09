@@ -22,6 +22,12 @@ header {
     background-color: transparent !important;
   }
 }
+.cs-no-stick .navbar-toggler i  {
+  color: black !important;
+}
+.cs-stick .navbar {
+   background-color: #0f0f57 !important;
+}
 
 @media screen and (min-width: 768px) {
   .container {

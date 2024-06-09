@@ -22,7 +22,6 @@ function App() {
           <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="timer" element={<Timer />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

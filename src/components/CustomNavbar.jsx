@@ -38,7 +38,12 @@ const CustomNavbar = () => {
                 <Navbar.Brand href="#">
                     <img className="img-fluid w-50" src="/images/logo.png" alt="Logo" />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarSupportedContent" onClick={() => setExpanded(expanded ? false : "expanded")} />
+                <button onClick={() => setExpanded(expanded ? false : "expanded")} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="" role="button" >
+                        <i class="bi bi-list _text-white" aria-hidden="true" ></i>
+                        </span>
+                </button>
+                {/* <Navbar.Toggle  aria-controls="navbarSupportedContent" onClick={() => setExpanded(expanded ? false : "expanded")} /> */}
                 <Navbar.Collapse id="navbarSupportedContent">
                     <Nav className="me-auto mb-2 mb-lg-0 d-flex justify-content-between w-100 align-items-center">
                         <Nav.Link href="#">Home</Nav.Link>
@@ -46,7 +51,6 @@ const CustomNavbar = () => {
                         <Nav.Link href="#">Portfolio</Nav.Link>
                         <Nav.Link href="#">Testimonials</Nav.Link>
                         <Nav.Link href="#">Team</Nav.Link>
-                        <Nav.Link as={Link} to="/timer">Timer</Nav.Link>
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#">About</NavDropdown.Item>
                             <NavDropdown.Item href="#">Pricing</NavDropdown.Item>
@@ -58,9 +62,6 @@ const CustomNavbar = () => {
                         </NavDropdown>
                         <Nav.Link href="#">News</Nav.Link>
                         <Button className="bg-btn text-white text-decoration-none text-center rounded-5" href="#">Get Quotes</Button>
-                        <Button className="moon m-3 border-0 d-flex justify-content-center align-items-center rounded-circle">
-                            <i className="bi bi-moon-fill"></i>
-                        </Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
