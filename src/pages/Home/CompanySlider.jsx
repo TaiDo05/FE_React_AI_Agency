@@ -28,10 +28,6 @@ const CompanySlider = () => {
     ]
     return (
         <div className="swiper py-5 animation in-view fadeup w-100">
-                <div className="text-center py-5">
-                    <h2 className="color-text fw-normal ">Testimonials</h2>
-                    <p className="desc-choose">Lorem ipsum dolor sit amet</p>
-                </div>
                 <div className="container">
                     <Swiper
                         className="Company"

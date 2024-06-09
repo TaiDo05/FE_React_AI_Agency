@@ -61,7 +61,9 @@ const CustomNavbar = () => {
                             <NavDropdown.Item href="#">Blog Detail Page</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="#">News</Nav.Link>
-                        <Button className="bg-btn text-white text-decoration-none text-center rounded-5" href="#">Get Quotes</Button>
+                        <Button className="bg-btn text-white text-decoration-none text-center rounded-5">Get Quotes</Button>
+                        <Button className='bi bi-moon-fill bg-light text-black text-decoration-none text-center rounded-5' />
+                            
                     </Nav>
                 </Navbar.Collapse>
             </Container>

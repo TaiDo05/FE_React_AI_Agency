@@ -11,6 +11,11 @@ body {
 .cs-stick .nav-link {
   color: white !important;
 }
+@media (min-width: 768px) {
+  .cs-stick .navbar {
+    background-color: transparent !important;
+ }
+}
 header.cs-no-stick .nav-link {
   color: black !important;
 }
@@ -26,7 +31,7 @@ header {
   color: black !important;
 }
 .cs-stick .navbar {
-   background-color: #0f0f57 !important;
+   background-color: #0f0f57 ;
 }
 
 @media screen and (min-width: 768px) {
@@ -141,10 +146,10 @@ header {
 .sub-banner .container {
   padding: 130px 0;
 }
-.slideCompany {
+.Company {
   padding: 80px 0;
 }
-.slideCompany img {
+.Company img {
   filter: grayscale(1);
 }
 

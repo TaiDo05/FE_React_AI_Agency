@@ -13,7 +13,7 @@ const Layout = () => {
             </div>
             <footer>
                 <div className=" sub-banner mt-5">
-                    <div className="container ">
+                    <div className="container px-2 ">
                         <div className="row position-relative w-100">
                             <div className="col-md-4 col-12 p-0">
                                 <div className="px-3">
@@ -70,21 +70,21 @@ const Layout = () => {
                                         <ul className="list-unstyled">
                                             <li className="mb-2 d-flex align-items-center text-white ">
                                                 <i className="bi bi-geo-alt-fill  pe-1"></i>
-                                                <p className="m-0">101 West Town , PBO 12345, United States</p>
+                                                <p className="m-0 text-white">101 West Town , PBO 12345, United States</p>
                                             </li>
                                             <li className="mb-2 d-flex align-items-center text-white ">
                                                 <i className="bi bi-telephone-inbound-fill pe-1"></i>
-                                                <p className="m-0">+1 1234 56 789</p>
+                                                <p className="m-0 text-white">+1 1234 56 789</p>
                                             </li>
                                             <li className="mb-2 d-flex align-items-center text-white ">
                                                 <i className="bi bi-envelope-fill pe-1"></i>
-                                                <p className="m-0">contact@example.com</p>
+                                                <p className="m-0 text-white">contact@example.com</p>
                                             </li>
                                         </ul>
                                         <h4 className="color-text mb-3">Newsletter</h4>
                                         <p className="text-white">Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
                                         <div className="position-relative d-flex align-items-center">
-                                            <input type="text" className="rounded-5 py-3 ps-4 w-100" placeholder="Email Address" />
+                                            <input type="text" className="rounded-5 py-3 border-0 bg-white ps-4 w-100" placeholder="Email Address" />
                                             <button className="send position-absolute  rounded-circle bg-primary border-0 d-flex justify-content-center align-items-center">
                                                 <i className="bi bi-send-fill text-white "></i>
                                             </button>
