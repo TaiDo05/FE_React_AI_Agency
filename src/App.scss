@@ -8,6 +8,20 @@
 body {
   width: 100vw;
 }
+.cs-stick .nav-link {
+  color: white !important;
+}
+header.cs-no-stick .nav-link {
+  color: black !important;
+}
+header {
+  &.cs-no-stick {
+    background-color: white;
+  }
+  &.cs-stick {
+    background-color: transparent !important;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .container {

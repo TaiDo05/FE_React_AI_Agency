@@ -29,7 +29,7 @@ const Portfolio = () => {
     useEffect(() => {
         console.log(currentKey);
         if(currentKey === 'ALL') {
-            setPortfolioData(Portfolio.slice(0,2))
+            setPortfolioData(Portfolio)
         }
         else {
             const filter = Portfolio.filter((item) => {

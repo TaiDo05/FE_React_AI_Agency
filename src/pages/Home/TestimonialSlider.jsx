@@ -46,8 +46,8 @@ const TestimonailSlider = () => {
                     spaceBetween={50}
                     loop={true}
                     slidesPerView={1}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => {}}
+                    onSwiper={(swiper) => {}}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
