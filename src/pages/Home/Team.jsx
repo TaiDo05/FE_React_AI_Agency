@@ -62,7 +62,7 @@ const Team = () => {
                     </div>
                     <div class="col-md-3 col-12 team-member py-5">
                         <div class="w-100 text-center">
-                            <img class="product-img rounded-3 img-fluid" src="/public/images/team-4.jpg" alt="" />
+                            <img class="product-img rounded-3 img-fluid" src="/images/team-4.jpg" alt="" />
                             <h3 class="color-text fs-5 mt-3 mb-0 fw-normal">Afa Jonson</h3>
                             <p class="mb-1 fst-italic">Business Manager</p>
                             <div class="text-center d-inline-block">
