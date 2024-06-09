@@ -51,11 +51,11 @@ const Portfolio = () => {
                     <h2 className="color-text fw-normal ">Our Portfolio</h2>
                     <p className="desc-choose">Lorem ipsum dolor sit amet</p>
                     <div className="d-flex gap-4 justify-content-center pt-4 flex-wrap"> 
-                        <span onClick={() => updateCurrentKey('ALL')} className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " >All</span>
-                        <span onClick={() => updateCurrentKey('DESIGN')} className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " >App Design</span>
-                        <a onClick={() => updateCurrentKey('DEVELOPER')}  className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " >App Developer</a>
-                        <a onClick={() => updateCurrentKey('BRANDING')}  className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " >Branding</a>
-                        <a onClick={() => updateCurrentKey('SOLUTION')}  className="bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  " >It Solutions</a>
+                        <button onClick={() => updateCurrentKey('ALL')} className={`${currentKey === 'ALL' ? 'active' : ''} bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  `} >All</button>
+                        <button onClick={() => updateCurrentKey('DESIGN')} className={`${currentKey === 'DESIGN' ? 'active' : ''} bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  `} >App Design</button>
+                        <button onClick={() => updateCurrentKey('DEVELOPER')}  className={`${currentKey === 'DEVELOPER' ? 'active' : ''} bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  `} >App Developer</button>
+                        <button onClick={() => updateCurrentKey('BRANDING')}  className={`${currentKey === 'BRANDING' ? 'active' : ''} bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  `} >Branding</button>
+                        <button onClick={() => updateCurrentKey('SOLUTION')}  className={`${currentKey === 'SOLUTION' ? 'active' : ''} bg-btn text-white fs-5 text-decoration-none text-center rounded-5 py-2 px-4  `} >It Solutions</button>
                     </div>
                 </div>
 

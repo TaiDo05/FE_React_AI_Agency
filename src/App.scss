@@ -105,10 +105,12 @@ header {
 }
 .quote-right {
   display: inline-block;
-  right: 3px;
-  position: relative;
-  top: 10px;
-  transform: rotate(180deg)
+  right: 0;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transform: rotate(180deg);
+  bottom: 0px;
 }
 .bi-quote::before {
   font-size: 25px;
@@ -138,6 +140,10 @@ header {
 }
 .slideCompany img {
   filter: grayscale(1);
+}
+
+.portfolio .active {
+  background: #000 !important;
 }
 
 /* .team {

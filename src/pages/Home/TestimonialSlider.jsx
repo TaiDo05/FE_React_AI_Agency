@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import TestimonialItem from './TestimonialItem';
 import { Autoplay } from 'swiper/modules';
+import Icon from '../../components/Icon';
 
 const TestimonailSlider = () => {
 
@@ -41,6 +42,7 @@ const TestimonailSlider = () => {
                 <div className="text-center py-5">
                     <h2 className="color-text fw-normal ">Testimonials</h2>
                     <p className="desc-choose">Lorem ipsum dolor sit amet</p>
+                    <Icon name="bug"></Icon>
                 </div>
                 <Swiper
                     spaceBetween={50}
@@ -48,10 +50,10 @@ const TestimonailSlider = () => {
                     slidesPerView={1}
                     onSlideChange={() => {}}
                     onSwiper={(swiper) => {}}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                      }}
+                    // autoplay={{
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    //   }}
                       modules={[Autoplay]}
                     breakpoints={{
                         640: {

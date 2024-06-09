@@ -20,10 +20,13 @@ const TestimonialItem = (props) => {
                         </div>
                     </div>
                     <div>
-                        <p className="mt-4">
+                        <p className="mt-4 _relative">
                             <i className="bi bi-quote quote-left  color-text"></i>
                             {quote}
-                            <i className="bi bi-quote quote-right color-text "></i>
+                            <span className="quote-right ">
+                            <i className="bi bi-quote color-text "></i>
+                            </span>
+                            
                         </p>
                     </div>
                 </div>

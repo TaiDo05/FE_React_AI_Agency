@@ -41,12 +41,12 @@ const CustomNavbar = () => {
                 <Navbar.Toggle aria-controls="navbarSupportedContent" onClick={() => setExpanded(expanded ? false : "expanded")} />
                 <Navbar.Collapse id="navbarSupportedContent">
                     <Nav className="me-auto mb-2 mb-lg-0 d-flex justify-content-between w-100 align-items-center">
-                        <Nav.Link className='_text-white' href="#">Home</Nav.Link>
-                        <Nav.Link className='_text-white' href="#">Services</Nav.Link>
-                        <Nav.Link className='_text-white' href="#">Portfolio</Nav.Link>
-                        <Nav.Link className='_text-white' href="#">Testimonials</Nav.Link>
-                        <Nav.Link className='_text-white' href="#">Team</Nav.Link>
-                        <Nav.Link className='_text-white' as={Link} to="/timer">Timer</Nav.Link>
+                        <Nav.Link href="#">Home</Nav.Link>
+                        <Nav.Link href="#">Services</Nav.Link>
+                        <Nav.Link href="#">Portfolio</Nav.Link>
+                        <Nav.Link href="#">Testimonials</Nav.Link>
+                        <Nav.Link href="#">Team</Nav.Link>
+                        <Nav.Link as={Link} to="/timer">Timer</Nav.Link>
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#">About</NavDropdown.Item>
                             <NavDropdown.Item href="#">Pricing</NavDropdown.Item>
