@@ -53,10 +53,10 @@ const TestimonailSlider = () => {
                     slidesPerView={1}
                     onSlideChange={() => {}}
                     onSwiper={(swiper) => {}}
-                    // autoplay={{
-                    //     delay: 2500,
-                    //     disableOnInteraction: false,
-                    //   }}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                      }}
                       modules={[Autoplay, Pagination, A11y]}
                     breakpoints={{
                         640: {
