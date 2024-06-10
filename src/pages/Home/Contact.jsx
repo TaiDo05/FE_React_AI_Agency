@@ -26,12 +26,12 @@ const Contact = () => {
                     
                 </div>
                 <div class="col-md-8 col-12">
-                    <div class="row">
-                        <form action="#" method="POST">
-                            <div class="col-6 mb-4">
+                    <form action="#" method="POST">
+                        <div class="row">
+                            <div class="col-md-6 col-12 py-3 ">
                                 <input type="text" placeholder="Name*"  class="form-input w-100" />
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-6 col-12 py-3 ">
                                 <input type="text" placeholder="Email*"  class="form-input w-100" />
                             </div>
                             <div class="col-12 mt-4">
@@ -43,8 +43,8 @@ const Contact = () => {
                             <div class="">
                                 <button class=" _px-[45px] _py-[13px] bg-btn border-0 text-white  text-center rounded-5 mt-4 d-inline-block">Send Message</button>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
