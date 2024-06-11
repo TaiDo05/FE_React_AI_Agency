@@ -36,8 +36,8 @@ const FAQ = () => {
                 </div>
                 
                 <Accordion className="mt-5" defaultActiveKey="0">
-                {AccordionData.map( (item) => (
-                    <Accordion.Item className="my-4" eventKey="0">
+                {AccordionData.map( (item, index) => (
+                    <Accordion.Item className="my-4" eventKey={index++}>
                     <Accordion.Header>
                             <i class="color-text bi bi-arrow-right-circle-fill pe-3 fs-5"></i>
                             {item.question}

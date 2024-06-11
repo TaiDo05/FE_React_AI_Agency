@@ -20,7 +20,7 @@ const Layout = () => {
                                     <img className="img-fluid w-50" src="/images/logo.png" alt="" />
                                     <p className="text-white mt-4 lh-lg">Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
                                     <h4 className="color-text">Follow us</h4>
-                                    <div className="text-white mt-4 d-flex gap-4">
+                                    <div className="text-white my-4 d-flex gap-4">
                                         <a><i className="bi bi-twitter"></i></a>
                                         <a><i className="bi bi-facebook"></i></a>
                                         <a><i className="bi bi-linkedin"></i></a>

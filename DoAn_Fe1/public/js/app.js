@@ -122,68 +122,7 @@ window.addEventListener('scroll', function() {
     scrollTop.style.transform = "translateY(100px)"
   }
 });
-const box = document.querySelectorAll(".scale")
-const text = document.querySelectorAll("p")
-const subtext = document.querySelectorAll("h4")
-const moon = document.querySelector(".moon");
-const testimonial = document.querySelectorAll(".shado")
-const getPrice = document.querySelectorAll(".plans .product-img")
-const body = document.querySelector("body")
-const blog = document.querySelectorAll(".blog-items")
-moon.addEventListener("click", function () {
-  if(!moon.classList.contains("dark")) {
-    body.style.background = "black"
-    text.forEach(element => {
-      element.style.color = "white"
-    });
-    subtext.forEach(element => {
-      element.style.color = "white"
-    });
-    box.forEach(element => {
-      element.style.background = "black"
-      element.classList.add("boxshadow")
-    });
-    getPrice.forEach(element => {
-      element.style.background = "black"
-      element.classList.add("boxshadow")
-    });
-    testimonial.forEach(element => {
-      element.style.background = "black"
-      element.classList.add("boxshadow")
-    });
-    blog.forEach(element => {
-      element.style.background = "black"
-      element.classList.add("boxshadow")
-    });
-  }else {
-    body.style.background = "white"
-    text.forEach(element => {
-      element.style.color = "black"
-    });
-    subtext.forEach(element => {
-      element.style.color = "black"
-    });
-    box.forEach(element => {
-      element.style.background = "white"
-      element.classList.remove("boxshadow")
-    });
-    getPrice.forEach(element => {
-      element.style.background = "white"
-      element.classList.remove("boxshadow")
-    });
-    testimonial.forEach(element => {
-      element.style.background = "white"
-      element.classList.remove("boxshadow")
-      element.classList.add("scale")
-    });
-    blog.forEach(element => {
-      element.style.background = "white"
-      element.classList.remove("boxshadow")
-    });
-  }
-  moon.classList.toggle("dark")
 
-})
 
 
 

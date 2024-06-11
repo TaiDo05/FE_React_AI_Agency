@@ -6,7 +6,7 @@ const TestimonialItem = (props) => {
             <div className="swiper-slide px-3">
                 <div className=" p-4 rounded-4 scale ">
                     <div className="d-flex w-100 align-items-center">
-                        <img className="scale rounded-circle img-fluid me-3" src={img} alt="" />
+                        <img className="_w-[30%] rounded-circle img-fluid me-3" src={img} alt="" />
                         <div>
                             <h3 className="testimonial-name m-0 color-text">{name}</h3>
                             <p className="">{position}</p>
