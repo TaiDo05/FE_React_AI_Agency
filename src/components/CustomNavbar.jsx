@@ -38,9 +38,9 @@ const CustomNavbar = () => {
                 <Navbar.Brand href="#">
                     <img className="img-fluid w-50" src="/images/logo.png" alt="Logo" />
                 </Navbar.Brand>
-                <button onClick={() => setExpanded(expanded ? false : "expanded")} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="" role="button" >
-                        <i class="bi bi-list _text-white" aria-hidden="true" ></i>
+                <button onClick={() => setExpanded(expanded ? false : "expanded")} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="" role="button" >
+                        <i className="bi bi-list _text-white" aria-hidden="true" ></i>
                         </span>
                 </button>
                 {/* <Navbar.Toggle  aria-controls="navbarSupportedContent" onClick={() => setExpanded(expanded ? false : "expanded")} /> */}

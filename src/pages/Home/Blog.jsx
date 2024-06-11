@@ -27,22 +27,22 @@ const Blog = () => {
     ]
     return(
         <>
-        <div class="blog">
-            <div class="container">
-                <div class="text-center pt-5">
-                    <h2 class="color-text fw-normal ">Blogs</h2>
-                    <p class="desc-choose">Lorem ipsum dolor sit amet</p>
+        <div className="blog">
+            <div className="container">
+                <div className="text-center pt-5">
+                    <h2 className="color-text fw-normal ">Blogs</h2>
+                    <p className="desc-choose">Lorem ipsum dolor sit amet</p>
                 </div>
-                <div class="row py-5">
+                <div className="row py-5">
                     {blog.map( (item) => (
-                        <div class="col-md-4  col-12">
-                                <div class="blog-items _shadow-lg rounded-3">
-                                <img class="w-100 rounded-3" src={item.img} alt="" />
-                                <div class="px-4 py-3">
-                                    <p class="m-1">{item.category}</p>
-                                    <h3 class="color-text fw-normal fs-4">{item.title}</h3>
-                                    <p class="m-0">{item.author}</p>
-                                    <p class="date m-0 ">{item.date}</p>
+                        <div className="col-md-4  col-12">
+                                <div className="blog-items _shadow-lg rounded-3">
+                                <img className="w-100 rounded-3" src={item.img} alt="" />
+                                <div className="px-4 py-3">
+                                    <p className="m-1">{item.category}</p>
+                                    <h3 className="color-text fw-normal fs-4">{item.title}</h3>
+                                    <p className="m-0">{item.author}</p>
+                                    <p className="date m-0 ">{item.date}</p>
                                 </div>
                             </div>
                         </div>

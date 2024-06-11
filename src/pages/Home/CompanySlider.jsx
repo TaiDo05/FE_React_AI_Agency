@@ -31,9 +31,9 @@ const CompanySlider = () => {
                 <div className="container">
                     <Swiper
                         className="Company"
-                        spaceBetween={50}
+                        spaceBetween={20}
                         loop={true}
-                        slidesPerView={1}
+                        slidesPerView={2}
                         onSlideChange={() => {}}
                         onSwiper={(swiper) => {}}
                         autoplay={{
@@ -43,7 +43,7 @@ const CompanySlider = () => {
                         modules={[Autoplay]}
                         breakpoints={{
                             640: {
-                            slidesPerView: 1,
+                            slidesPerView: 2,
                             spaceBetween: 20,
                             },
                             768: {
@@ -57,8 +57,8 @@ const CompanySlider = () => {
                     >
                         {CompanySlider.map( (item ) => (
                             <SwiperSlide >
-                                <div class="swiper-slide d-inline-block text-center  px-3 w-20">
-                                    <img class="w-75 " src={item.img} alt="" />
+                                <div className="swiper-slide d-inline-block text-center  px-3 w-20">
+                                    <img className="w-75 " src={item.img} alt="" />
                                 </div>
                             </SwiperSlide>
                         ))}

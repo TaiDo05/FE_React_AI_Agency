@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 const SubBanner = () => {
-    const [inViewClass, setInViewClass] = useState("");
+    const [inViewClassName, setInViewClassName] = useState("");
     const { ref, inView, entry } = useInView({
         /* Optional options */
         threshold: 0,
       });
 
       useEffect(() => {
-        if(inView && inViewClass == "") {
-            setInViewClass("in-view");
+        if(inView && inViewClassName == "") {
+            setInViewClassName("in-view");
             counterUp();
 
         }
@@ -42,32 +42,32 @@ const SubBanner = () => {
 
     return (
         <>
-        <div ref={ref} class=" sub-banner mt-5 w-100">
-            <div class="container">
-                <div class="row animation in-view fadeup w-100">
-                    <div class="col-md-4 col-12 position-relative">
-                        <div class="text-center">
+        <div ref={ref} className=" sub-banner mt-5 w-100">
+            <div className="container">
+                <div className="row animation in-view fadeup w-100">
+                    <div className="col-md-4 col-12 position-relative">
+                        <div className="text-center">
                             <img src="/images/happy-clients.svg" alt="" />
-                            <h3 class="counter color-text" data-toggle="counter-up"> 232</h3>
-                            <h3 class="color-text">Happy Clients</h3>
-                            <p class="text-white">consequuntur quae diredo</p>
+                            <h3 className="counter color-text" data-toggle="counter-up"> 232</h3>
+                            <h3 className="color-text">Happy Clients</h3>
+                            <p className="text-white">consequuntur quae diredo</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-12 position-relative">
-                        <div class="text-center">
+                    <div className="col-md-4 col-12 position-relative">
+                        <div className="text-center">
                             <img src="/images/complete-projects.svg" alt="" />
-                            <h3 class="counter color-text" data-toggle="counter-up"> 521</h3>
-                            <h3 class="color-text">Completed Projects</h3>
-                            <p class="text-white">consequuntur quae diredo</p>
+                            <h3 className="counter color-text" data-toggle="counter-up"> 521</h3>
+                            <h3 className="color-text">Completed Projects</h3>
+                            <p className="text-white">consequuntur quae diredo</p>
                             
                         </div>
                     </div>
-                    <div class="col-md-4 col-12 position-relative">
-                        <div class="text-center">
+                    <div className="col-md-4 col-12 position-relative">
+                        <div className="text-center">
                             <img src="/images/hours-support.svg" alt="" />
-                            <h3 class="counter color-text" data-toggle="counter-up"> 453</h3>
-                            <h3 class="color-text">Hours Of Support</h3>
-                            <p class="text-white">consequuntur quae diredo</p>
+                            <h3 className="counter color-text" data-toggle="counter-up"> 453</h3>
+                            <h3 className="color-text">Hours Of Support</h3>
+                            <p className="text-white">consequuntur quae diredo</p>
                             
                         </div>
                     </div>

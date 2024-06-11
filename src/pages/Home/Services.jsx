@@ -176,8 +176,8 @@ const Services = () => {
                 </div>
                 <div className="col-md-4 col-12">
                     <div className="text-center product-img  py-5"> 
-                        <h4 className="fs-2">Basic</h4>
-                        <p className="price"><span className="dollar">$</span>25</p>
+                        <h4 className="fs-2">Standard</h4>
+                        <p className="price"><span className="dollar">$</span>50</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Unlimited GB Space</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>30 Domain Names</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Free SSL</p>
@@ -192,8 +192,8 @@ const Services = () => {
                 </div>
                 <div className="col-md-4 col-12">
                     <div className="text-center product-img  py-5"> 
-                        <h4 className="fs-2">Basic</h4>
-                        <p className="price"><span className="dollar">$</span>25</p>
+                        <h4 className="fs-2">Premium</h4>
+                        <p className="price"><span className="dollar">$</span>100</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Unlimited GB Space</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>30 Domain Names</p>
                         <p><i className="bi bi-check-circle pe-1 m-0" ></i>Free SSL</p>
