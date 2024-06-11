@@ -21,7 +21,7 @@ const SubBanner = () => {
 
         counters.forEach(counter => {
             const target = +counter.innerText;
-            const duration = 3000; 
+            const duration = 1500; 
             const delay = 10; 
             const increment = target / (duration / delay);
             let count = 0;
